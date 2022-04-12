@@ -1,4 +1,4 @@
-import { User } from '@libs/db/entities/user.entities';
+import { User } from 'src/user/entities/user.entities';
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { UserController } from './user.controller';

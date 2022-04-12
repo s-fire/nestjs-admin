@@ -10,5 +10,8 @@ export class User{
   username:string;
 
   @Column()
-  password:string
+  password:string;
+
+  @Column({type:'timestamp',default:()=>'CURRENT_TIMESTAMP'})
+  create_time:Date
 }
